@@ -15,6 +15,6 @@ the app has following endpoints:
  publishing a span manually 
  
  
-#Jaeger
+# Jaeger
 Jaeger is using a cassadra for the storage 
 
