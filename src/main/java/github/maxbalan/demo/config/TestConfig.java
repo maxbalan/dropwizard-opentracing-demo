@@ -1,4 +1,4 @@
-package config;
+package github.maxbalan.demo.config;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

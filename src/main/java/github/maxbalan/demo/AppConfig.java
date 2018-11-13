@@ -1,6 +1,6 @@
+package github.maxbalan.demo;
 
-
-import config.TestConfig;
+import github.maxbalan.demo.config.TestConfig;
 import io.dropwizard.Configuration;
 
 import javax.validation.Valid;

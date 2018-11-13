@@ -1,4 +1,4 @@
-package resources;
+package github.maxbalan.demo.resources;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
