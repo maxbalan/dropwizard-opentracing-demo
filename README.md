@@ -8,8 +8,8 @@ the app is using:
  
 the app has following endpoints:
  
- GET /hello/auto?name=someString
- GET /hello/manual?name=someString
+ - `GET /hello/auto?name=someString`
+ - `GET /hello/manual?name=someString`
  
  so the `auto` endpoint is using dropwizard instrumentation for opentracing while the `manual` is building a tracer and 
  publishing a span manually 
