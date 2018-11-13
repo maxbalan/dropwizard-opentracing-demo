@@ -1,0 +1,21 @@
+group 'gradle-custom-init'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // dropwizard libraries
+    compile 'io.dropwizard:dropwizard-core:1.2.2'
+    compile 'io.dropwizard:dropwizard-client:1.2.2'
+    compile 'io.dropwizard:dropwizard-auth:1.2.2'
+    // test libraries
+	 testCompile 'junit:junit:4.12'
+
+}
